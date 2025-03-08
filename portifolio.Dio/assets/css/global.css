@@ -1,0 +1,38 @@
+
+*{
+    box-sizing: border-box;
+    font-family: "Open Sans",sans-serif;
+}
+
+body{
+    color: #fff;
+    animation: 3s;
+    background: 
+    linear-gradient(-300deg,
+   #000,#3c3226,#6d5d44,#beae97,#fff),no-repeat;
+    background-size: 300%;    
+}
+
+
+.main{
+    padding: 1rem;
+    margin: 1rem;
+    border: 1px solid #fff;
+    border-radius: 1rem;
+}
+
+@media only screen and (min-width:768px){
+   .main{
+    max-width: 1024px;
+    margin: 0 auto;
+   }
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+    
+}
+a:hover{
+   text-decoration: underline;    
+}
